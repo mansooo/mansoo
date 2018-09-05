@@ -1,16 +1,14 @@
+#grid{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  text-align: center;
+}
+
 div{
   background-color: #544a44;
   padding-bottom:10px;
 }
-#login{
-  padding-left:1230px
-}
-#na{
-  padding-left:30px;
-}
-#ir{
-  padding-left:30px;
-}
+
 a{
   text-decoration:none;
   color:white;
@@ -25,14 +23,20 @@ h1{
   padding-top:30px;
 }
 #place{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  text-align:center;
   background-color: #f8e002;
   padding-top:10px;
+  padding-bottom:0;
+}
+.spotcolor{
+  background-color: #f8e002;
 }
 #spot1{
   color:skyblue;
 }
 .spot{
-  padding-left:270px;
   color:gray;
 }
 body{
