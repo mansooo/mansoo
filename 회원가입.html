@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MS&R의 여행사진_회원가입</title>
+  <link rel="stylesheet" href="sub style.css">
+</head>
+<body>
+  <div>
+    <h1><a href="index.html">MS&R trip photo</a></h1>
+      <a href="로그인.html"  id="login">로그인</a>
+      <a href="회원가입.html" id="na" style="color:skyblue">회원가입</a>
+      <a href="회원정보수정.html" id="ir">회원정보수정</a>
+</div>
+<div id="main">
+  <a href="index.html" class="main1">메인으로</a>
+</div>
+  <form action="http://localhost/index.html">
+    <h2>회원가입</h2>
+    <img src="noun_Sign Up_6478.svg" width="100" height="100">
+    <p>성명: <input type="text" name="id"></p>
+    <p>생년월일: <input type="date" name="borndate"></p>
+    <p>이메일: <input type="email" name="email"></p>
+    <p>거주지: <input type="text" name="address"></p>
+    <p>아이디: <input type="text" name="id"></p>
+    <p>비밀번호: <input type="password" name="psw"></p>
+    <h3>가보고 싶은 여행지(중복가능)</h3>
+    국내<input type="checkbox" name="spot" value="domestic">
+    동남아<input type="checkbox" name="spot" value="southeast asia">
+    중국<input type="checkbox" name="spot" value="china">
+    일본<input type="checkbox" name="spot" value="japan">
+    유럽<input type="checkbox" name="spot" value="europe">
+    미국<input type="checkbox" name="spot" value="america">
+    <p><input type="submit" name="na" value="회원가입" onclick="alert('회원가입이 완료되셨습니다.')">
+  </form>
+</body>
+</html>

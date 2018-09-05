@@ -1,0 +1,54 @@
+div{
+  background-color: #544a44;
+  padding-bottom:10px;
+}
+#login{
+  padding-left:1230px
+}
+#na{
+  padding-left:30px;
+}
+#ir{
+  padding-left:30px;
+}
+a{
+  text-decoration:none;
+  color:white;
+}
+
+h1{
+  text-align:center;
+  background-color: #544a44;
+  margin:0;
+  padding:10px;
+  padding-bottom:15px;
+  padding-top:30px;
+}
+#place{
+  background-color: #f8e002;
+  padding-top:10px;
+}
+#spot1{
+  color:skyblue;
+}
+.spot{
+  padding-left:270px;
+  color:gray;
+}
+body{
+  margin:0;
+  background-color: ;
+
+}
+span{
+  display: block;
+  font-size:larger;
+  text-align:center;
+  color:gray;
+}
+img{
+  display: block;
+
+  image-align:center;
+
+}
